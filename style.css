@@ -156,25 +156,25 @@ section h2 {
 /* About Section */
 .about-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: center;           /* centers both text and image as a pair */
+    align-items: center;               /* vertically centers content */
+    gap: 4rem;                         /* spacing between text and image */
     flex-wrap: wrap;
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    margin: 0 auto;                    /* centers the whole section horizontally */
+    padding: 3rem 1rem;
+    text-align: left;
 }
 
 .about-text {
     flex: 1 1 500px;
-    text-align: justify;
     color: #f2e9ff;
     font-size: 1.05rem;
     line-height: 1.8;
 }
 
 .about-text h2 {
-    text-align: left;
+    text-align: center;                /* centers the "About Me" heading */
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #e0d7ff;
@@ -182,12 +182,13 @@ section h2 {
 
 .about-text p {
     margin-bottom: 1rem;
+    text-align: justify;               /* neat paragraph alignment */
 }
 
 .about-image {
     flex: 1 1 350px;
     display: flex;
-    justify-content: center;
+    justify-content: center;           /* keeps image centered within its half */
     align-items: center;
 }
 
@@ -204,6 +205,7 @@ section h2 {
     transform: scale(1.05);
     box-shadow: 0 15px 35px rgba(138, 43, 226, 0.6);
 }
+
 
 
 /* Skills Section */
